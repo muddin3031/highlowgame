@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>High Low Game</title>
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		body{
+			text-align:center;
+		}
+	</style>
+	</head>
+	<body>
+		<h1 id="title"> Clocks!</h1>
+		<p id="objective"> Enter the correct time displayed on the clock</p>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xs-4">
+					<div class="input-group mb-3">
+						<input id="number" type="text" class="form-control" placeholder="" aria-label="Number" aria-describedby="basic-addon1">
+						
+					</div>
+				</div>
+			</div>
+			<button id="button2"type="button" class="btn btn-primary" onclick="checkResult()" >Enter</button>
+			<h2 id="result"></h2>
+		</div>
+		<h2 id="counter">0</h2>
+		<div class="container" id="counterdiv">
+			<div class="row justify-content-center">
+			     <div class="col-xs-4">
+			 	    <img id="clocks" src="clock1.jpg"></img>
+			     </div>	
+				 
+		    </div>
+			
+			
+		</div>
+		<!--JavaScript-->
+		<script type="text/javascript" src="script.js"></script>
+		<!--Bootstrap-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	</body>
+</html>
